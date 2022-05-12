@@ -1,7 +1,7 @@
 .flexbox-container {
     display: flex;
     justify-content: space-around;
-    background-color: aquamarine;
+    background-color:teal;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -19,9 +19,9 @@
 }
 
 .flexbox-item-2 {
-    min-height: 200px;   
+    min-height: 100px;   
 }
 
 .flexbox-item-3 {
-    min-height: 300px;
+    min-height: 100px;
 }
