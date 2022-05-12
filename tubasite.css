@@ -1,7 +1,7 @@
 .flexbox-container {
     display: flex;
     justify-content: space-around;
-    background-color:teal;
+    background-color:#008080;
     align-items: center;
     flex-wrap: wrap;
 }
