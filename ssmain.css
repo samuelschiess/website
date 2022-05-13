@@ -4,6 +4,10 @@ Body {
 
 img {
     width:25%;
+    border-radius:10px;
+    border-style:solid;
+    border-width:2px;
+    border-color:white;
 }
 h1 {
     display: block;
@@ -18,22 +22,25 @@ h1 {
     flex-wrap: wrap;
     text-align:center;
     vertical-align:middle;
+    border-radius:10px;
 }
 
 .flexbox-container-2 {
     display:block;
     justify-content: space-around;
-    background-color:#748f73;
+    background-color:#4b3621;
     align-items:center;
     text-align:center;
     width:50%;
     margin:25%;
     margin-top:6%;
     padding:1%;
+    border-radius:10px;
 }
 
 .flexbox-item {
     width: 200px;
+    border-radius:10px;
     margin: 10px;
     border: 3px solid #494e5f;
     background-color: #dfdfdf;
