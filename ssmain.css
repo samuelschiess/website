@@ -28,7 +28,7 @@ h1 {
 .flexbox-container-2 {
     display:block;
     justify-content: space-around;
-    background-color:#4b3621;
+    background-color:#996d41;
     align-items:center;
     text-align:center;
     width:50%;
@@ -41,7 +41,7 @@ h1 {
 .flexbox-container-3 {
     display:block;
     justify-content: space-around;
-    background-color:#21374b;
+    background-color:#996d41;
     align-items:center;
     text-align:center;
     width:80%;
