@@ -1,5 +1,5 @@
 Body {
-    background-color: #edfded;
+    background-color: #21374b;
 }
 
 img {
@@ -33,6 +33,19 @@ h1 {
     text-align:center;
     width:50%;
     margin:25%;
+    margin-top:6%;
+    padding:1%;
+    border-radius:10px;
+}
+
+.flexbox-container-3 {
+    display:block;
+    justify-content: space-around;
+    background-color:#21374b;
+    align-items:center;
+    text-align:center;
+    width:80%;
+    margin:10%;
     margin-top:6%;
     padding:1%;
     border-radius:10px;
