@@ -1,44 +1,94 @@
-
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Samuel Schiess</title>
-        <link rel="stylesheet" type="text/css" href="ssmain.css"/>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Samuel Schiess</title>
+    <link rel="stylesheet" type="text/css" href="ssmain.css" />
+</head>
 
 <body>
     <div class="flexbox-container">
-        <div class="flexbox-item flexbox-item-1">
-            <a href="index.html">Samuel Schiess</a>
+        <div class="flexbox-item flexbox-item-2">
+            <a href="#welcome">Home</a>
         </div>
         <div class="flexbox-item flexbox-item-2">
-            <a href="about.html">About</a>
+            <a href="#projects">Projects</a>
         </div>
-        <div class="flexbox-item flexbox-item-3">
-            <a href="projects.html">Projects</a>
+        <div class="flexbox-item flexbox-item-2">
+            <a href="#aboutme">About</a>
         </div>
-        <div class="flexbox-item flexbox-item-4">
-            <a href="contact.html">Contact</a>
+        <div class="flexbox-item flexbox-item-2">
+            <a href="#contact">Contact</a>
         </div>
     </div>
 
-    <div class="content">
+    <!--  Welcome Message -->
+    <div class="content" id="welcome">
         <h1 class="welcome-message">
             <div class="flexbox-container-2">
                 <h1>
-                    <span>Hello, </span>
-                    <br>
-                    <span>my name is </span>
-                    <br>
-                    </span>Samuel Schiess. </span>  
-                    <br>
-                    <span>I am an aspiring Software Engineer .</span>
+                    <span>Hello, my name is Samuel Schiess. Welcome to my website!</span>
                 </h1>
-            </div>  
+            </div>
         </h1>
     </div>
-        
+
+    <!--  Projects  -->
+    <div class="flexbox-container-2" id="projects">
+        <h1>My Github Projects</h1><br>
+        <a href="https://github.com/samuelschiess/HangMan">Hangman</a><br><br>
+        <img src="media/HangmanScreenshot.png" alt="HangmanScreenshot"><br><br>
+
+        <a
+            href="https://github.com/samuelschiess/beg_py_projs/blob/main/rock_paper_scissors">Rock-Paper-Scissors</a><br><br>
+        <img src="media/rockPaperScissorsScreenshot.png" alt="rockPaperScissorsScreenshot"><br><br>
+
+        <a href="https://github.com/samuelschiess/beg_py_projs/blob/main/bulls_cows_four_digit">Bulls and Cows Logic
+            Game</a><br><br>
+        <img src="media/bullsAndCows4DigitsScreenshot.png" alt="bullsAndCows4DigitsScreenshot"><br>
+
+        <p>This Website!</p>
+        <img src="media/mySiteScreenshot.png" alt="my-webpage-screenshot">
+        <p>
+            This website is being hosted on github pages.
+            You can find my HTML, CSS, and Javascript files on my repository there:
+        </p><br>
+        <a href="https://github.com/samuelschiess/website">This Site's Repository</a>
+    </div>
+
+    <!--  About Me  -->
+    <div class="flexbox-container-2" id="aboutme">
+        <h1>About Me</h1>
+        <img src="media/samschiess.jpg" alt="sam schiess">
+        <p class="about">
+            My name is Sam Schiess.
+            I have been learning computer science since 2021, starting with the Python language, and expanding to HTML,
+            CSS, and javascript.
+            My interests in computer science started when I looked into pivoting my career away from Music Education.
+            Out of all the alternative fields I looked into, I enjoyed programming by far the most.
+            Solving problems, being creative, and learning to do things that originally seemed out of my reach made
+            programming exciting.
+            Computer science is still exciting to me, and I am constantly trying to learn more.
+            Outside of computer science, I enjoy music, and am the band teacher at South Summit middle and high schools.
+            I also enjoy hiking. See some of my favorite trails below:
+        </p>
+
+        <a href="https://www.alltrails.com/trail/us/utah/lake-blanche-trail?u=i">Lake Blanche - - - - -</a>
+        <a href="https://www.alltrails.com/trail/us/utah/mt-timpanogos-timpooneke-trail?u=i">Mount Timpanogos - - - -
+            -</a>
+        <a href="https://www.alltrails.com/trail/us/utah/pfeifferhorn-via-red-pine-lakes-trail?u=i">Pfeifferhorn
+            Peak</a>
+    </div>
+
+    <!--  Contact Info  -->
+    <div class="content" id="contact">
+        <div class="flexbox-container-2">
+            <h1>Contact Me</h1>
+            <a href="mailto:schiess95@gmail.com">schiess95@gmail.com</a>
+        </div>
+
 </body>
+
 </html>
