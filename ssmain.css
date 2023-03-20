@@ -3,81 +3,89 @@ Body {
 }
 
 img {
-    width:25%;
-    border-radius:10px;
-    border-style:solid;
-    border-width:2px;
-    border-color:white;
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border: 3px solid #8298ae;
 }
+
 h1 {
     display: block;
     align-items: center;
+    color: #494e5f;
 }
 
 .flexbox-container {
     display: flex;
     justify-content: space-around;
-    background-color:#748f73;
+    background-color: #748f73;
     align-items: center;
     flex-wrap: wrap;
-    text-align:center;
-    vertical-align:middle;
-    border-radius:10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
 }
 
 .flexbox-container-2 {
-    display:block;
+    display: block;
     justify-content: space-around;
-    background-color:#996d41;
-    align-items:center;
-    text-align:center;
-    width:50%;
-    margin:25%;
-    margin-top:6%;
-    padding:1%;
-    border-radius:10px;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 3px solid #8298ae;
+    background-color: #dfdfdf;
 }
 
 .flexbox-container-3 {
-    display:block;
+    display: block;
     justify-content: space-around;
-    background-color:#996d41;
-    align-items:center;
-    text-align:center;
-    width:80%;
-    margin:10%;
-    margin-top:6%;
-    padding:1%;
-    border-radius:10px;
+    background-color: #996d41;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+    margin-top: 6%;
+    padding: 1%;
+    border-radius: 10px;
 }
 
 .flexbox-item {
     width: 200px;
-    border-radius:10px;
+    border-radius: 10px;
     margin: 10px;
     border: 3px solid #494e5f;
     background-color: #dfdfdf;
 }
 
 .flexbox-item-1 {
-    padding: 15px;   
+    padding: 1px;
 }
 
 .flexbox-item-2 {
-    padding: 15px;   
+    padding: 15px;
 }
 
 .flexbox-item-3 {
-    padding: 15px;      
+    padding: 15px;
 }
 
 .flexbox-item-4 {
-    padding: 15px;      
+    padding: 15px;
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: #494e5f;
 }
 
+p {
+    text-decoration: none;
+    color: #494e5f;
+}
 
